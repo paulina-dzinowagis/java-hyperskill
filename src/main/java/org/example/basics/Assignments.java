@@ -1,6 +1,6 @@
 package org.example.basics;
 
-public class Exercise1 {
+public class Assignments {
     public static void main(String[] args) {
         int value = 1;
         int value1 = 2;

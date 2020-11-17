@@ -1,6 +1,6 @@
-package org.example.basics;
+package org.example.basics.arithmetic;
 
-public class ArithmeticOperations {
+public class Integers1 {
     public static void main(String[] args) {
         System.out.println(2 + 4 * 5 - 10 / (2 + 1));
         System.out.println(-10 * (3 + 4) / 2);

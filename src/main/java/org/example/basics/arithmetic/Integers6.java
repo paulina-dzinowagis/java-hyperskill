@@ -7,7 +7,12 @@ public class Integers6 {
         Scanner scanner = new Scanner(System.in);
         String in = scanner.nextLine();
         char[] chars = in.toCharArray();
-        char tensDigit = chars[chars.length - 2];
-        System.out.println(tensDigit);
+        int charsLength = chars.length;
+        if (charsLength >= 2) {
+            char tensDigit = chars[chars.length - 2];
+            System.out.println(tensDigit);
+        } else {
+            System.out.println("");
+        }
     }
 }

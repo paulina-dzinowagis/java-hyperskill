@@ -12,7 +12,7 @@ public class Integers6 {
             char tensDigit = chars[chars.length - 2];
             System.out.println(tensDigit);
         } else {
-            System.out.println("");
+            System.out.println(0);
         }
     }
 }
